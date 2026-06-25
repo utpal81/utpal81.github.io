@@ -8,8 +8,8 @@ h1 {
 }
 
 body {
-  background-color: lightblue;
-  color: #333333;
+  background-color: rgb(53, 50, 50);
+  color: white;
   font-family: Verdana, Geneva, sans-serif;
   margin-left: 80px;
   margin-right: 80px;
@@ -25,5 +25,5 @@ title {
 }
 
 h2 {
-  color: darkgreen;
+  color: rgb(165, 165, 125);
 }
