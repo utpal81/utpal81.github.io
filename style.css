@@ -1,0 +1,29 @@
+h1 {
+  color: darkblue;
+  text-align: center;
+  background-color: white;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 10px;
+}
+
+body {
+  background-color: lightblue;
+  color: #333333;
+  font-family: Verdana, Geneva, sans-serif;
+  margin-left: 80px;
+  margin-right: 80px;
+  line-height: 1.6;
+}
+
+p {
+  text-align: center;
+}
+
+title {
+  font-size: large;
+}
+
+h2 {
+  color: darkgreen;
+}
