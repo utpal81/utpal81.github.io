@@ -137,3 +137,17 @@ nav a:hover {
   background: #1d4ed8;
   transition: 0.3s;
 }
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .project-container {
+    flex-direction: column;
+
+    align-items: center;
+  }
+}
