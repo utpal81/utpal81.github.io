@@ -71,13 +71,21 @@ nav a {
 
   text-decoration: none;
 
-  font-size: 20px;
+  /* font-size: 20px;
 
-  font-weight: bold;
+  font-weight: bold; */
+
+  padding: 10px 15px;
+
+  border-radius: 8px;
+
+  transition: 0.3s;
 }
 
 nav a:hover {
-  color: gold;
+  background: #5b553c;
+
+  color: white;
 }
 
 .project-container {
@@ -106,5 +114,26 @@ nav a:hover {
 
 .project:hover {
   transform: translateY(-8px) scale(1.02);
+  transition: 0.3s;
+}
+
+.btn {
+  display: inline-block;
+
+  background: #2563eb;
+
+  color: white;
+
+  text-decoration: none;
+
+  padding: 12px 24px;
+
+  border-radius: 8px;
+
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background: #1d4ed8;
   transition: 0.3s;
 }
