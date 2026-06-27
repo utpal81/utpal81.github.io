@@ -13,33 +13,34 @@
       <h1>Utpal Kumar Das</h1>
 
       <p class="tagline">AI Engineer | Research Scholar | Python Developer</p>
+      <button id="themeButton">🌙 Dark Mode</button>
     </header>
 
     <nav>
       <a href="#">🏠 Home</a>
 
-      <a href="#">👤 About</a>
+      <a href="#about">👤 About</a>
 
-      <a href="#">🛠 Skills</a>
+      <a href="#skills">🛠 Skills</a>
 
-      <a href="#">💼 Projects</a>
+      <a href="#projects">💼 Projects</a>
 
-      <a href="#">📧 Contact</a>
+      <a href="#contact">📧 Contact</a>
     </nav>
 
     <hr />
 
-    <div class="card">
+    <section id="about" class="card">
       <h2>About Me</h2>
       <p>
         Welcome to my portfolio website. I enjoy building AI applications using
         Python, FastAPI, Docker and AWS.
       </p>
-    </div>
+    </section>
 
     <hr />
 
-    <div class="card">
+    <section id="skills" class="card">
       <h2>Skills</h2>
 
       <ul>
@@ -57,11 +58,11 @@
 
         <li>AWS</li>
       </ul>
-    </div>
+    </section>
 
     <hr />
 
-    <div class="card">
+    <div id="projects" class="card">
       <h2>Projects</h2>
 
       <div class="project-container">
@@ -70,7 +71,12 @@
 
           <p>FastAPI • Docker • AWS</p>
           <a href="#" class="btn"> 🚀 Live Demo </a>
-          <a href="#" class="btn"> 💻 GitHub </a>
+          <a
+            href="https://github.com/utpal81/insurance_premium_predictor"
+            class="btn"
+          >
+            💻 GitHub
+          </a>
         </div>
 
         <div class="project">
@@ -95,6 +101,9 @@
 
     <hr />
 
-    <a href="https://github.com/utpal81"> GitHub </a>
+    <section id="contact" class="card">
+      <a href="https://github.com/utpal81"> GitHub </a>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
